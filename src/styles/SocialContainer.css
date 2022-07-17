@@ -1,0 +1,28 @@
+.social-container {
+    align-items: center;
+    background-color: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1em;
+    /* backdrop-filter: blur(10px) saturate(260%); */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1.4em 0;
+    padding: 2em;
+    transition: var(--transition);
+}
+
+.social-container:hover {
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.social-container {
+    gap: 0.3em;
+}
+
+a { 
+    color: var(--color-white);
+    text-decoration: none;
+    font-size: 1rem;
+}
