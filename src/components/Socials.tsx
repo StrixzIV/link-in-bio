@@ -1,7 +1,7 @@
 import React from 'react'
 
 import { CgWebsite } from 'react-icons/cg'
-import { AiFillYoutube, AiFillGithub } from 'react-icons/ai'
+import { AiFillYoutube, AiFillGithub, AiOutlineInstagram } from 'react-icons/ai'
 
 import SocialContainer from './SocialContainer'
 
@@ -9,20 +9,26 @@ const socials = [
 
     {
       text: 'Official website',
-      icons: <CgWebsite />,
+      icons: <CgWebsite className="social-icons"/>,
       socialLinks: 'https://strixziv-portfolio.web.app/'
     },
   
     {
       text: 'Youtube',
-      icons: <AiFillYoutube />,
+      icons: <AiFillYoutube className="social-icons"/>,
       socialLinks: 'https://www.youtube.com/c/Xcact/'
     },
   
     {
       text: 'Github',
-      icons: <AiFillGithub />,
+      icons: <AiFillGithub className="social-icons"/>,
       socialLinks: 'https://github.com/StrixzIV'
+    },
+    
+    {
+      text: 'Instragram',
+      icons: <AiOutlineInstagram className="social-icons"/>,
+      socialLinks: 'https://www.instagram.com/strixziv_/'
     },
   
 ]
