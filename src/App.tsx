@@ -1,10 +1,6 @@
 import './styles/App.css'
 
-import { CgWebsite } from 'react-icons/cg'
-import { AiFillYoutube, AiFillGithub } from 'react-icons/ai'
-
 import Socials from './components/Socials'
-
 
 function App() {
 
@@ -20,6 +16,7 @@ function App() {
 
     </div>
   )
+  
 }
 
 export default App
