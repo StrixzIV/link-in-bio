@@ -2,12 +2,18 @@ import React from 'react'
 
 import '../styles/SocialContainer.css'
 
-const SocialContainer = (props: any) => {
+interface SocialProps {
+    socialLinks: string,
+    text: string,
+    icons?: JSX.Element
+}
+
+const SocialContainer = (props: SocialProps) => {
 
     return (
         <a href={props.socialLinks}>
             <div className="social-container">
-                    {props.icons} {props.text}
+                    {props.icons ?? ''} {props.text}
             </div>
         </a>
     )
